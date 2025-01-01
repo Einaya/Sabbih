@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تسبيح</title>
+  <link rel="stylesheet" href="tasbeeh.css">
+</head>
+
+<body>
+
+<section id="tasbeeh" class="content-section">
+  
+  <!-- زر الرجوع إلى الصفحة الرئيسية -->
+<a href="index.html" class="back-button">الرجوع إلى الصفحة الرئيسية</a>
+  
+    <h2>التسبيح والاستغفار</h2>
+    
+    <!-- زر إعادة الضبط-->
+    <button id="reset-count">إعادة العدد إلى الصفر</button>
+    
+    <!-- الأسهم للتنقل بين الأدعية -->
+    <div class="navigation-buttons">
+        <button id="prev-dua">&lt;</button>
+        <div id="dua-display">
+            <p id="current-dua">سبحان الله وبحمده، سبحان الله العظيم</p>
+        </div>
+        <button id="next-dua">&gt;</button>
+    </div>
+    
+    <!-- العدادات -->
+    <div class="counter">
+        <p>عدد التسبيحات: <span id="count">0</span></p>
+        <button id="increase-count">زيادة العدد</button>
+    </div>
+
+    <!-- النص التشجيعي -->
+    <div id="encouragement-text" style="display: none;">
+        <p>شارك هذا الموقع مع من تحب لننال الأجر معًا. <strong>الدال على الخير كفاعله.</strong></p>
+    </div>
+
+    <!-- زر المشاركة -->
+    <div class="share">
+        <button id="share">مشاركة</button>
+    </div>
+</section>
+
+<!-- نافذة المشاركة المنبثقة -->
+<div id="shareModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h3>مشاركة عبر وسائل التواصل الاجتماعي</h3>
+    <!-- الرسالة التشجيعية داخل النافذة المنبثقة -->
+    <div id="encouragement-text-modal">
+        <p>شارك هذا الموقع مع من تحب لننال الأجر معًا. <strong>الدال على الخير كفاعله.</strong></p>
+    </div>
+    <button id="whatsapp-share">مشاركة عبر واتساب</button>
+    <button id="copy-link">نسخ رابط الموقع</button>
+  </div>
+</div>
+
+
+
+
+
+<script src="tasbeeh.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* styles.css */
+body {
+  direction: rtl;
+}
+
+
+#tasbeeh {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#tasbeeh h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.navigation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+  font-size: 2em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #3498DB;
+  margin: 0 1px;
+  transition: color 0.3s;
+}
+
+.navigation-buttons button:hover {
+  color: #fff;
+}
+
+#dua-display {
+  font-size: 1.5em;
+  color: #2C3E50;
+  margin: 0 20px;
+}
+
+.counter {
+  margin-bottom: 20px;
+}
+
+.counter p {
+  font-size: 1.5em;
+  color: #2c3e50;
+}
+
+.counter button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.counter button:hover {
+  background-color: #2980b9;
+}
+
+.share button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.share button:hover {
+  background-color: #e67e22;
+}
+
+#encouragement-text {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+#reset-count {
+  background-color: #DB3434;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* تغيير اللون الخاص بزر واتساب */
+#whatsapp-share {
+  background-color: #25D366; /* اللون الأخضر الخاص بواتساب */
+}
+
+#whatsapp-share:hover {
+  background-color: #128C7E; /* اللون الأخضر الداكن عند التمرير */
+}
+
+/* تنسيق زر الرجوع */
+.back-button {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #3498db;
+}
